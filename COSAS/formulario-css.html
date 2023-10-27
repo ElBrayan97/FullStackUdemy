@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset = UTF-8>
+        <meta name = "viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>HTML-CSS-JS-Course</title>
+        <style>
+        
+            body{
+                background-color: #05121a;
+            }
+            
+            h1{
+                color:grey;
+                position: center;
+            }
+
+            input {
+                width: 150px;
+                padding: 5px 20px;
+                margin: 10px 10px 10px 100px;
+                box-sizing: border-box;
+                border: 3px solid gray;
+                border-radius: 4px;
+                color: rgb(255, 255, 255);
+            }
+
+            .container{
+                border-radius: 4px;
+            }
+
+            input:focus {
+                background-color: rgb(125, 133, 125);
+                border: 3px solid #555;
+            }
+        </style>
+    </head>
+
+
+
+    <body>
+        <h1>Login</h1>
+        <div id="container">
+            <form action="http://localhost:3000" method="POST">
+                <input type="text" name="Nombre" id="name" placeholder="Nombre"/>
+                <input type="text" name="Apellido" id="apell" placeholder="Apellido"/>
+            </form>
+            <div id="buttons">
+                <button id="login">Ingresar</button>
+                <button id="new_user">Registrarse</button>
+            </div>
+        </div>
+        
+    </body>
+</html>
