@@ -1,0 +1,52 @@
+header{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+body{
+    background-color: aliceblue;
+}
+
+.formulario_2{
+    
+    font-family: monospace;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.name{
+    padding: 0px 0px 10px 0px;
+}
+
+.boton{
+    background-color: aquamarine;
+    border-color: greenyellow;
+    border-radius: 6px;
+}
+
+.boton:hover{
+    background-color: green;
+    border-radius: 6px;
+    box-shadow: 0 5px 8px 0px rgba(0, 0, 0, 0.4)
+} 
+
+.lastname{
+    padding: 0px 0px 10px 0px;
+}
+
+.options{
+    padding: 0px 0px 10px 0px;
+}
+
+.div-container{
+    width: 350px;
+    padding: 3px;
+    margin: 20px;
+    border-color: black;
+}
+
+footer{
+    text-align: center;
+}
+

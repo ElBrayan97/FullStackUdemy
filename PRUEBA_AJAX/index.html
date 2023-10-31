@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Prueba_AJAXw/FETCH</title>
+        <style>
+            @import url(style.css);
+        </style>
+        <script src="ajax_scrypt.js"></script>
+    </head>
+
+    <body>
+        <header class="header-top">FORMULARIO ESTILIZADO CON CSS</header>
+        <div class="div-container">
+            <form class="formulario_2" action="http://localhost:3000" method="POST">
+                <div class="name">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" name="nombre" class="nombre" placeholder="Ingrese su nombre...">
+                </div>
+                <div class="lastname">
+                    <label for="apellido">Apellido:</label>
+                    <input type="text" name="apellido" class="apellido" placeholder="Ingrese su apellido...">
+                </div>
+                <div class="options">
+                    <label for="pais">País:</label>
+                    <select name="pais" class="pais" required>
+                        <option selected disabled hidden>Seleccione</option>
+                        <option >Argentina</option>
+                        <option >Brasil</option>
+                        <option >Bolivia</option>
+                        <option >Chile</option>
+                        <option >Paraguay</option>
+                        <option >Uruguay</option>
+                    </select>
+                </div>
+                <button type="submit" class="boton">Enviar</button>
+            </form>
+        </div>
+        <footer>footer... nothing for here</footer>
+    </body>
+    
+</html>
