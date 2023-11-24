@@ -1,3 +1,4 @@
 {
-    "livePreview.defaultPreviewPath": "/PRUEBA_FETCH/INDEX.HTML"
+    "livePreview.defaultPreviewPath": "/PRUEBA_FETCH/INDEX.HTML",
+    "editor.fontSize": 20
 }

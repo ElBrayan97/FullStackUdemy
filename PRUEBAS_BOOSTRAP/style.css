@@ -1,0 +1,45 @@
+/*Nav Bar*/
+.navbar {
+    padding: 1rem;
+    background-color: #f5f6f7;
+}
+
+.navbar-collapse{
+    align-items: center;
+    justify-content: space-between;
+}
+
+/*Main Section*/
+.main{
+    background-color: #f5f6f7;
+    min-height: 450px;
+    text-align: center;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-img{ /* Agregar modificadores para la foto real (preferible que no se vean lo bordes, que sea circular) */
+    height: 120px;
+    width: 120px;
+}
+
+h1{
+    font-size: 2rem;
+}
+
+h2{
+    font-size: 1.5rem;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+@media screen and (max-width:767px){ /*Media query para ocultar el logo al mostrar en */
+    .navbar-brand{
+        display: none;
+    }
+}
